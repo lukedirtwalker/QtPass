@@ -9,12 +9,6 @@
 #include <QList>
 #include <QProcess>
 #include <QQueue>
-#if QT_VERSION >= QT_VERSION_CHECK(5, 10, 0)
-#include <QRandomGenerator>
-#else
-#include <fcntl.h>
-#include <unistd.h>
-#endif
 #include <QString>
 #include <QTextCodec>
 #include <cassert>

@@ -23,7 +23,8 @@ SOURCES   += mainwindow.cpp \
              imitatepass.cpp \
              executor.cpp \
              simpletransaction.cpp \
-             filecontent.cpp
+             filecontent.cpp \
+    passwordgenerator.cpp
 
 HEADERS   += mainwindow.h \
              configdialog.h \
@@ -47,7 +48,8 @@ HEADERS   += mainwindow.h \
              simpletransaction.h \
              filecontent.h \
              passwordconfiguration.h \
-             userinfo.h
+             userinfo.h \
+    passwordgenerator.h
 
 FORMS     += mainwindow.ui \
              configdialog.ui \
